@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="WCD-Asm:war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>WCD-Asm</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="WCD-Asm-1.0-SNAPSHOT.war">
+      <element id="artifact" artifact-name="WCD-Asm:war exploded" />
+    </root>
+  </artifact>
+</component>
